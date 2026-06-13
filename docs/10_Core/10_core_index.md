@@ -21,17 +21,15 @@ AI開発支援ツールやAI coding agentの状況は、非常に速く変化し
 
 ## Coreの読む順番
 
-```text
-00. withAI開発の全体像と時代の流れ
-10. Core目次
-11. Context
-12. Spec
-13. Issue / PR
-14. Plan Review
-15. Eval / Test
-16. Review
-17. 責務分担
-```
+1. [00. withAI開発の全体像と時代の流れ](../00_with_ai_development_overview.md)
+2. [10. Core目次](./10_core_index.md)
+3. [11. Context](./11_ai_context_design_overview.md)
+4. [12. Spec](./12_ai_spec_design_overview.md)
+5. [13. Issue / PR](./13_ai_issue_pr_design_overview.md)
+6. [14. Plan Review](./14_ai_plan_review_overview.md)
+7. [15. Eval / Test](./15_ai_eval_test_design_overview.md)
+8. [16. Review](./16_ai_review_design_overview.md)
+9. [17. 責務分担](./17_ai_responsibility_design_overview.md)
 
 Plan Reviewは追加Coreとして後から独立しました。  
 そのため、元の番号から並び替えています。
@@ -42,9 +40,7 @@ Plan Reviewは追加Coreとして後から独立しました。
 
 対象ファイル:
 
-```text
-00_with_ai_development_overview_ja.md
-```
+- [../00_with_ai_development_overview.md](../00_with_ai_development_overview.md)
 
 Coreに入る前の前段資料です。
 
@@ -56,9 +52,7 @@ AI開発支援が単なるコーディング補助から、AI coding agentや開
 
 対象ファイル:
 
-```text
-11_ai_context_design_overview_ja_20260530.md
-```
+- [11_ai_context_design_overview.md](./11_ai_context_design_overview.md)
 
 Contextは、AIに常に守らせる現場ルール・設計ルール・制約です。
 
@@ -81,9 +75,7 @@ AIは人間のように現場の空気を読めません。
 
 対象ファイル:
 
-```text
-12_ai_spec_design_overview_ja_20260530.md
-```
+- [12_ai_spec_design_overview.md](./12_ai_spec_design_overview.md)
 
 Specは、今回の作業で何を達成するかを定義します。
 
@@ -103,9 +95,7 @@ Contextが「常に守るルール」だとすると、Specは「今回の作業
 
 対象ファイル:
 
-```text
-13_ai_issue_pr_design_overview_ja_20260530.md
-```
+- [13_ai_issue_pr_design_overview.md](./13_ai_issue_pr_design_overview.md)
 
 Issue / PRは、AIに渡す作業単位と、AIが作った変更を提出・確認する単位を扱います。
 
@@ -132,9 +122,7 @@ Plan ReviewのPlanとは別です。
 
 対象ファイル:
 
-```text
-14_ai_plan_review_overview_ja_20260601.md
-```
+- [14_ai_plan_review_overview.md](./14_ai_plan_review_overview.md)
 
 Plan Reviewは、AIに実装させる前に、AIが提示した実装方針を確認する工程です。
 
@@ -162,9 +150,7 @@ Plan Reviewは、後工程に集中しがちな人間判断の負荷を、実装
 
 対象ファイル:
 
-```text
-15_ai_eval_test_design_overview_ja_20260530.md
-```
+- [15_ai_eval_test_design_overview.md](./15_ai_eval_test_design_overview.md)
 
 Eval / Testは、AIが作った成果物が条件を満たしているかを検査する工程です。
 
@@ -185,9 +171,7 @@ AIが作ったコードは、それっぽく見えることがあります。
 
 対象ファイル:
 
-```text
-16_ai_review_design_overview_ja_20260530.md
-```
+- [16_ai_review_design_overview.md](./16_ai_review_design_overview.md)
 
 Reviewは、AIが作った成果物を採用してよいか判断する工程です。
 
@@ -216,9 +200,7 @@ AIが実装した後に見る
 
 対象ファイル:
 
-```text
-17_ai_responsibility_design_overview_ja_20260530.md
-```
+- [17_ai_responsibility_design_overview.md](./17_ai_responsibility_design_overview.md)
 
 責務分担は、人間とAIがどこを担当し、誰が最終責任を持つかを扱います。
 
@@ -287,15 +269,15 @@ Cost / ROI / 運用負荷は、後で横断軸として見る方針です。
 
 この文書はCoreの目次です。
 
-Guard、Support、Laterなどのまとまりが完了したら、それぞれ同じように目次・前書きを作成します。
+現在公開している資料は、研究全体のうち整理が進んだ一部です。  
+後続のまとまりが完了したら、それぞれ同じように目次・前書きを作成します。
 
 最終的には、次のような構成にする想定です。
 
 ```text
 Core 目次
 Guard 目次
-Support 目次
-Later 目次
+後続章の目次
 横断軸: Cost / ROI / 運用負荷
 全体目次
 ```
