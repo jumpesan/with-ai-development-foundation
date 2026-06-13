@@ -1,0 +1,2 @@
+# with-ai-development-foundation
+AIをツールではなく開発パートナーとして活用するための研究内容の共有用リポジトリ
